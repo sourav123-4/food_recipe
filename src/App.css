@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+.app_recipe{
+  margin-top: 10px;
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  margin-left: .4em;
+  margin-right: .7em;
+  
+}
+.recipe{
+  cursor: pointer;
+  
+}
