@@ -20,7 +20,7 @@ function App() {
   }
   return (
     <div className="App">
-      <h1>FOOD RECIPEE</h1>
+      <h1><u>FOOD RECIPEE</u></h1>
       <input
          type="search"
          className='search-input'
@@ -30,8 +30,6 @@ function App() {
       <div className='app_recipe'>
       {results.map((item)=>{
         return <Recipe recipe={item}/>
-        // {console.log(item.recipe.label)}
-        // return <p>{item["recipe"]["label"]}</p>
       })}
       </div>
     </div>
